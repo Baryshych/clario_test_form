@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: bg-gradient-to-r from-[#F4F9FF] to-[#E0EDFB];
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Inter, serif;
+}
+
+.validationSuccessfull {
+  background: #5CD6C01A;
+  border: 2px solid #5CD6C0;
+}
+
+.validationFailed {
+  background: #ED5F591A;
+  border: 2px solid #ED5F59;
+}
+
+.defaultInput {
+  border: 2px solid #151D5133;
+  background: #FFFFFF;
+}
+
+.validationTipSuccessfull {
+  color: #009796;
+}
+
+.validationTipFailed {
+  color: #ED5F59;
+}
+
+.validationTipDefault {
+  color: #151D51B2
+}
